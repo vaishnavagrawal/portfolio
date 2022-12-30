@@ -18,6 +18,7 @@ export default siteConfig({
   description: 'This is the portfolio by Vaishnav Agrawal . ',
 
 
+  includeNotionIdInUrls: true,
   // social usernames (optional)
   // twitter: 'transitive_bs',
   github: 'vaishnavagrawal',

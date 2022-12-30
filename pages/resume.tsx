@@ -1,4 +1,4 @@
-import Link from 'next/link'
+// import Link from 'next/link'
 import React from 'react'
 
 import { projects, workExperience } from 'constants/resume'
@@ -7,7 +7,7 @@ import { NotionPageHeader } from '@/components/NotionPageHeader'
 function resume() {
   return (
     <div>
-      <div
+      {/* <div
         style={{
           //   position: 'fixed',
           width: 'auto',
@@ -40,7 +40,7 @@ function resume() {
             <span className='p-3 hover:bg-[#a6a5a2b2]'>Articles</span>
           </Link>
         </div>
-      </div>
+      </div> */}
       <NotionPageHeader/>
 
       <div className='md:container mx-auto p-10'>
